@@ -1283,3 +1283,14 @@ img {
         padding: 40px 15px;
     }
 }
+/* Hide ALL existing content */
+body > * {
+  display: none !important;
+}
+
+/* Show coming soon */
+#coming-soon {
+  display: flex !important;
+}
+
+
